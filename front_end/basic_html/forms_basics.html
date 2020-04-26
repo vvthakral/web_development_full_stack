@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic Form</title>
+</head>
+<body>
+    <h1>A very basic login form</h1>
+    <p>This will not store data anywhere unless we connect something on the backend.
+    We can have input inside or outside a form. If multiple input are related we can combine them using the form tag which is a container. By default action is same site and method is get.<br> <br>
+    The address bar has the action url followed by the ? with key and value pairs separated by &.
+    For passwords we do not send a get request but do a post request so the password in reality does not shoe up in url.<br><br>
+    We can add labels for information which can be accessed by visually impaired. They do not make any difference in the way the site appears but adds additional info for the screen readers. Also they can used to reference to any tag by mapping them to the id of the.
+    </p>
+
+    <form >
+        <h3>Login</h3>
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" placeholder="email" required>
+        <label for="password">password</label>
+        <input id="password" type="password" name="password" placeholder="password" required>
+        <!-- <button>Submit</button> -->
+        <label for="submit">submit</label>
+        <input id="submit" type="submit">
+    </form>
+</body>
+</html>
